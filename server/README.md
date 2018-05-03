@@ -1,5 +1,14 @@
 # Server
 
+## Running the app
+
+A Google geocode API token is required.
+
+Define an env var called `GEOCODE_API_TOKEN`.
+
+If a `.env` file exists in this directory it will be loaded automatically.
+
+
 ## To-do
 
 * More and better unit tests
