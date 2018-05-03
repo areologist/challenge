@@ -6,6 +6,8 @@ Rough pass at the coding challenge.
 
 * React app for looking up addresses and seeing results in Map and/or List.
 * Node app for reading the addresses file, indexing those addresses for basic text search, and geocoding the "ROOFTOP" addresses on demand and caching the results.
+* Rate limiter on geocode requests per Google's cap.
+* Communication between client and server over WebSocket so results can be presented asap.
 
 ---
 
