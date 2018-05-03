@@ -1,0 +1,36 @@
+.no-results {
+  color: #456;
+  font-size: .87em;
+  font-weight: 500;
+  padding: 20px;
+  text-align: center;
+  text-shadow: 1px 1px 0 #fff;
+  text-transform: uppercase;
+}
+
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity .3s ease-out;
+}
+
+.fade-leave {
+  opacity: 1;
+}
+
+.fade-leave.fade-leave-active {
+  opacity: 0;
+}
+
+.fade {
+  opacity: 1;
+}
+.fade-exiting {
+  opacity: 0;
+}
+.fade-entering {
+  opacity: 0;
+}

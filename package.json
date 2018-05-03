@@ -1,0 +1,20 @@
+{
+  "name": "challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run install:all && npm run build:client && npm run client:dist && npm run start:server",
+    "install:all": "npm run install:client && npm run install:server",
+    "install:client": "cd client && npm install",
+    "install:server": "cd server && npm install",
+    "build:client": "cd client && npm run build",
+    "client:dist": "rm -rf server/dist && mv -f client/dist server/",
+    "start:server": "cd server && npm start",
+    "test": "npm run test:client && npm run test:server",
+    "test:client": "cd client && npm test",
+    "test:server": "cd server && npm test"
+  },
+  "author": "sobriendev@gmail.com",
+  "license": "MIT"
+}

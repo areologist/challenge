@@ -1,0 +1,37 @@
+.buttons button {
+  background-color: #fff;
+  background-clip: border-box;
+  border: none;
+  border-radius: 3px;
+  margin: 0 1px;
+  outline: none;
+  padding: 6px 6px 3px;
+  transition: background-color .2s ease-out;
+}
+
+.buttons button:hover {
+  background-color: #eee;
+}
+
+.buttons button.selected {
+  background-color: #456;
+}
+
+.svg {
+  height: 22px;
+  pointer-events: none;
+  width: 22px;
+}
+
+.selected > .svg {
+  filter: contrast(500%) invert(1);
+}
+
+@media (max-width: 640px) {
+  .buttons button {
+    display: none;
+  }
+  .buttons button:first-of-type {
+    display: block;
+  }
+}

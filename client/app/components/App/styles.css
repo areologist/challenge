@@ -1,0 +1,59 @@
+.app {
+  height: 100vh;
+}
+
+.content {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 100%;
+}
+
+.content-col {
+  margin: 15px 0;
+}
+
+.content-col h4 {
+  color: #89a;
+  font-size: 0.9rem;
+  margin: 10px;
+}
+
+.content-col.card {
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+  border-radius: 2px;
+  padding: 15px;
+}
+
+.content-col.both {
+  overflow-y: auto;
+}
+
+@media (max-width: 960px) {
+  .content-col {
+    margin: 0;
+  }
+  
+  .content-col.card {
+    border: none;
+    padding: 0;
+  }
+}
+
+@media (max-width: 1280px) {
+  .content {
+    max-width: 960px;
+  }
+}
+
+.error {
+  background-color: #f177b9;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.error h4 {
+  font-size: 0.9em;
+  margin: 0.7em;
+}

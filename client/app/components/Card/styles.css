@@ -1,0 +1,91 @@
+.card {
+  border-bottom: 1px solid #e6e6e6;
+  font-size: .9em;
+  margin: 10px 5px;
+  padding: 12px 4px;
+  position: relative;
+}
+
+.card .icon {
+  margin-right: 6px;
+  padding: 4px;
+}
+
+.card .icon img {
+  height: 36px;
+  width: 36px;
+}
+
+.card .line {
+  color: #789;
+  line-height: 1.4em;
+}
+
+.card .flex div:first-of-type {
+  color: #456;
+  font-weight: 500;
+}
+
+.card .coords {
+  display: none;
+  font-size: 0.9em;
+  padding-right: 15px;
+  position: absolute;
+  right: 0;
+  text-align: right;
+}
+
+.card-list {
+  width: 100%;
+}
+
+/* "Both" view mode styles */
+
+@media (max-width: 960px) {
+  .card-list.both {
+    margin-left: -10px;
+  }
+
+  .card-list.both .card {
+    margin: 0;
+    padding: 12px 0;
+  }
+}
+
+/* "List" view mode styles */
+
+.list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.list .card {
+  background-color: white;
+  border: 1px solid #eee;
+  border-radius: 2px;
+  padding: 25px 15px;
+}
+
+.list .card {
+  flex: 0 0 44%;
+  font-size: 1.05em;
+}
+
+.list .card .icon img {
+  height: 40px;
+  width: 40px;
+}
+
+.list .card .coords {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .list .card {
+    flex: 0 0 100%;
+    font-size: 1.05em;
+    padding: 20px 0
+  }
+}

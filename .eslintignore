@@ -1,0 +1,4 @@
+client/dist/*
+client/scripts/*
+client/config/*
+server/dist/*

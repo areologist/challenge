@@ -1,0 +1,22 @@
+html,
+body {
+  background-color: #fafafa;
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+input,
+button {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+}
+
+a {
+  color: #69c;
+  text-decoration: none;
+}
+
+a:hover {
+  color: orange;
+}
