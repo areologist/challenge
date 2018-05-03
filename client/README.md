@@ -1,5 +1,16 @@
 # Client
 
+## Running the app
+
+By default the app will try to connect via WebSocket to `ws://localhost:8080`.
+
+This can be configured by defining the following environment variable.
+
+`CHALLENGE_CLIENT_WSS_URL`
+
+If a `.env` file exists in this directory it will be loaded automatically.
+
+
 ## To-do
 
 * More unit tests
