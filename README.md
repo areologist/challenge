@@ -1,8 +1,8 @@
-# `challenge`
+# challenge
 
 Rough pass at the coding challenge.
 
-Basic idea:
+### Overview
 
 * React app for looking up addresses and seeing results in Map and/or List.
 * Node app for reading the addresses file, indexing those addresses for basic text search, and geocoding the "ROOFTOP" addresses on demand and caching the results.
